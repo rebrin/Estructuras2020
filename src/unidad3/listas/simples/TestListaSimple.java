@@ -12,7 +12,20 @@ public class TestListaSimple {
         lista.insertaFrente(0);
         lista.insertarFinal(6);
         lista.insertarFinal(5);
+       /* System.out.println(lista);
 
+        System.out.println("elemento eliminado:"+lista.eliminaFrente());
+        System.out.println("elemento eliminado:"+lista.eliminaFrente());
+        System.out.println("elemento eliminado:"+lista.eliminaFrente());
+        System.out.println("elemento eliminado:"+lista.eliminaFrente());
+        System.out.println("elemento eliminado:"+lista.eliminaFrente());
+
+        System.out.println("elemento eliminado del final "+lista.eliminarFinal());
+        System.out.println("elemento eliminado del final "+lista.eliminarFinal());
+        */
+        System.out.println(lista);
+        System.out.println(lista.estaEnLista(7));
+        System.out.println(lista.delete(5));
         System.out.println(lista);
     }
 }
